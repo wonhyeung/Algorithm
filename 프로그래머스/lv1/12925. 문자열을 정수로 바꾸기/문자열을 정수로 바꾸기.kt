@@ -1,5 +1,5 @@
 class Solution {
-    fun solution(s: String): Long {
-       return s.toLong()
+    fun solution(s: String): Int {
+       return s.toInt()
     }
 }

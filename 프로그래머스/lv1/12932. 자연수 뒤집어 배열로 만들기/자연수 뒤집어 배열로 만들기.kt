@@ -1,9 +1,7 @@
 class Solution {
-    fun solution(n: Long): IntArray {
-        var answer = intArrayOf()
-       answer = n.toString().reversed().map{
-            it.toString().toInt()
+    fun solution(n: Long): IntArray =
+        n.toString().reversed().map{
+            it.digitToInt()
         }.toIntArray()
-        return answer
-    }
+    
 }
